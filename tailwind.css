@@ -1,0 +1,243 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --button-text-font-family: "Montserrat", Helvetica;
+  --button-text-font-size: 14px;
+  --button-text-font-style: normal;
+  --button-text-font-weight: 600;
+  --button-text-letter-spacing: 0px;
+  --button-text-line-height: 16px;
+  --color-1: rgba(156, 53, 109, 1);
+  --color-2: rgba(252, 214, 139, 1);
+  --color-3: rgba(249, 120, 76, 1);
+  --dark: rgba(23, 23, 23, 1);
+  --desktop-bold-text-font-family: "Montserrat", Helvetica;
+  --desktop-bold-text-font-size: 16px;
+  --desktop-bold-text-font-style: normal;
+  --desktop-bold-text-font-weight: 500;
+  --desktop-bold-text-letter-spacing: 0.32px;
+  --desktop-bold-text-line-height: normal;
+  --desktop-button-text-font-family: "Montserrat", Helvetica;
+  --desktop-button-text-font-size: 14px;
+  --desktop-button-text-font-style: normal;
+  --desktop-button-text-font-weight: 500;
+  --desktop-button-text-letter-spacing: 0px;
+  --desktop-button-text-line-height: normal;
+  --desktop-header-3-font-family: "Montserrat", Helvetica;
+  --desktop-header-3-font-size: 32px;
+  --desktop-header-3-font-style: italic;
+  --desktop-header-3-font-weight: 500;
+  --desktop-header-3-letter-spacing: 0.64px;
+  --desktop-header-3-line-height: 100%;
+  --desktop-headline-2-font-family: "Montserrat", Helvetica;
+  --desktop-headline-2-font-size: 48px;
+  --desktop-headline-2-font-style: normal;
+  --desktop-headline-2-font-weight: 500;
+  --desktop-headline-2-letter-spacing: -0.96px;
+  --desktop-headline-2-line-height: 100%;
+  --desktop-headling-1-font-family: "Montserrat", Helvetica;
+  --desktop-headling-1-font-size: 95px;
+  --desktop-headling-1-font-style: normal;
+  --desktop-headling-1-font-weight: 500;
+  --desktop-headling-1-letter-spacing: -1.9px;
+  --desktop-headling-1-line-height: 100%;
+  --desktop-paragraph-1-font-family: "Montserrat", Helvetica;
+  --desktop-paragraph-1-font-size: 18px;
+  --desktop-paragraph-1-font-style: normal;
+  --desktop-paragraph-1-font-weight: 400;
+  --desktop-paragraph-1-letter-spacing: 0.36px;
+  --desktop-paragraph-1-line-height: 140%;
+  --desktop-paragraph-2-font-family: "Montserrat", Helvetica;
+  --desktop-paragraph-2-font-size: 16px;
+  --desktop-paragraph-2-font-style: normal;
+  --desktop-paragraph-2-font-weight: 400;
+  --desktop-paragraph-2-letter-spacing: 0.32px;
+  --desktop-paragraph-2-line-height: 140%;
+  --desktop-project-tagline-font-family: "Montserrat", Helvetica;
+  --desktop-project-tagline-font-size: 14px;
+  --desktop-project-tagline-font-style: normal;
+  --desktop-project-tagline-font-weight: 500;
+  --desktop-project-tagline-letter-spacing: 0.2800000000000001px;
+  --desktop-project-tagline-line-height: 16px;
+  --desktop-small-text-font-family: "Montserrat", Helvetica;
+  --desktop-small-text-font-size: 14px;
+  --desktop-small-text-font-style: normal;
+  --desktop-small-text-font-weight: 500;
+  --desktop-small-text-letter-spacing: 0.2800000000000001px;
+  --desktop-small-text-line-height: normal;
+  --desktop-subtitle-font-family: "Montserrat", Helvetica;
+  --desktop-subtitle-font-size: 21px;
+  --desktop-subtitle-font-style: normal;
+  --desktop-subtitle-font-weight: 500;
+  --desktop-subtitle-letter-spacing: 0.42px;
+  --desktop-subtitle-line-height: 100%;
+  --desktop-tagline-font-family: "Montserrat", Helvetica;
+  --desktop-tagline-font-size: 20px;
+  --desktop-tagline-font-style: normal;
+  --desktop-tagline-font-weight: 700;
+  --desktop-tagline-letter-spacing: 0.4px;
+  --desktop-tagline-line-height: 24px;
+  --light: rgba(254, 250, 238, 1);
+  --mobile-bold-text-font-family: "Montserrat", Helvetica;
+  --mobile-bold-text-font-size: 16px;
+  --mobile-bold-text-font-style: normal;
+  --mobile-bold-text-font-weight: 500;
+  --mobile-bold-text-letter-spacing: 0.32px;
+  --mobile-bold-text-line-height: normal;
+  --mobile-button-text-font-family: "Montserrat", Helvetica;
+  --mobile-button-text-font-size: 14px;
+  --mobile-button-text-font-style: normal;
+  --mobile-button-text-font-weight: 500;
+  --mobile-button-text-letter-spacing: 0px;
+  --mobile-button-text-line-height: normal;
+  --mobile-header-3-font-family: "Montserrat", Helvetica;
+  --mobile-header-3-font-size: 28px;
+  --mobile-header-3-font-style: italic;
+  --mobile-header-3-font-weight: 500;
+  --mobile-header-3-letter-spacing: 0.5600000000000002px;
+  --mobile-header-3-line-height: 100%;
+  --mobile-headline-1-font-family: "Montserrat", Helvetica;
+  --mobile-headline-1-font-size: 56px;
+  --mobile-headline-1-font-style: normal;
+  --mobile-headline-1-font-weight: 500;
+  --mobile-headline-1-letter-spacing: -1.1200000000000003px;
+  --mobile-headline-1-line-height: 100%;
+  --mobile-headline-2-font-family: "Montserrat", Helvetica;
+  --mobile-headline-2-font-size: 32px;
+  --mobile-headline-2-font-style: normal;
+  --mobile-headline-2-font-weight: 700;
+  --mobile-headline-2-letter-spacing: -0.64px;
+  --mobile-headline-2-line-height: 120.00000762939453%;
+  --mobile-paragraph-1-font-family: "Montserrat", Helvetica;
+  --mobile-paragraph-1-font-size: 16px;
+  --mobile-paragraph-1-font-style: normal;
+  --mobile-paragraph-1-font-weight: 400;
+  --mobile-paragraph-1-letter-spacing: 0.32px;
+  --mobile-paragraph-1-line-height: 140%;
+  --mobile-paragraph-2-font-family: "Montserrat", Helvetica;
+  --mobile-paragraph-2-font-size: 14px;
+  --mobile-paragraph-2-font-style: normal;
+  --mobile-paragraph-2-font-weight: 400;
+  --mobile-paragraph-2-letter-spacing: 0.2800000000000001px;
+  --mobile-paragraph-2-line-height: 140%;
+  --mobile-project-tagline-font-family: "Montserrat", Helvetica;
+  --mobile-project-tagline-font-size: 14px;
+  --mobile-project-tagline-font-style: normal;
+  --mobile-project-tagline-font-weight: 500;
+  --mobile-project-tagline-letter-spacing: 0.2800000000000001px;
+  --mobile-project-tagline-line-height: 16px;
+  --mobile-small-text-font-family: "Montserrat", Helvetica;
+  --mobile-small-text-font-size: 14px;
+  --mobile-small-text-font-style: normal;
+  --mobile-small-text-font-weight: 500;
+  --mobile-small-text-letter-spacing: 0.2800000000000001px;
+  --mobile-small-text-line-height: normal;
+  --mobile-subtitle-font-family: "Montserrat", Helvetica;
+  --mobile-subtitle-font-size: 18px;
+  --mobile-subtitle-font-style: normal;
+  --mobile-subtitle-font-weight: 500;
+  --mobile-subtitle-letter-spacing: 0.36px;
+  --mobile-subtitle-line-height: 100%;
+  --mobile-tagline-font-family: "Montserrat", Helvetica;
+  --mobile-tagline-font-size: 14px;
+  --mobile-tagline-font-style: normal;
+  --mobile-tagline-font-weight: 600;
+  --mobile-tagline-letter-spacing: 0.2800000000000001px;
+  --mobile-tagline-line-height: 24px;
+  --small-text-font-family: "Montserrat", Helvetica;
+  --small-text-font-size: 14px;
+  --small-text-font-style: normal;
+  --small-text-font-weight: 500;
+  --small-text-letter-spacing: 0.2800000000000001px;
+  --small-text-line-height: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

@@ -1,0 +1,1 @@
+export { FreelaceTemplate } from "./FreelaceTemplate";
