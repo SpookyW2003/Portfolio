@@ -8,7 +8,6 @@ import {
 } from "../../components/ui/navigation-menu";
 import { Separator } from "../../components/ui/separator";
 import { AboutMeSection } from "./sections/AboutMeSection";
-import { ClientTestimonialsSection } from "./sections/ClientTestimonialsSection";
 import { ContactFooterSection } from "./sections/ContactFooterSection";
 import { HeroBannerSection } from "./sections/HeroBannerSection";
 import { PortfolioProjectsSection } from "./sections/PortfolioProjectsSection/PortfolioProjectsSection";
@@ -59,7 +58,6 @@ export const FreelaceTemplate = (): JSX.Element => {
         <AboutMeSection />
         <Separator className="mx-14 my-0" />
         <PortfolioProjectsSection />
-        <ClientTestimonialsSection />
         <Separator className="mx-14 my-0" />
         <ServicesOfferSection />
         <ContactFooterSection />
