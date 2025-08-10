@@ -15,7 +15,7 @@ export const AboutMeSection = (): JSX.Element => {
         <img
           className="w-[300px] md:w-[432px] h-[500px] md:h-[696px] rounded-[500px] object-cover"
           alt="Profile image"
-          src="/image-7.png"
+          src="Author.jpg"
         />
       </div>
 

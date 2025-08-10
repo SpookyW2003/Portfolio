@@ -21,16 +21,23 @@ export const ContactFooterSection = (): JSX.Element => {
       title: "Email",
       details: "debadarshanparida59@gmail.com",
     },
-    
   ];
 
   // Service options data
   const serviceOptions = [
     { id: "Web-Dev", label: "Full-stack Developer" },
     { id: "App-Dev", label: "Flutter Developer" },
-    { id: "AI/ML", label: "Machine Learing using python Streamlit-based web application" },
+    {
+      id: "AI/ML",
+      label: "Machine Learing using python Streamlit-based web application",
+    },
     { id: "Cloud Computing", label: "AWS,Azure,Devops", checked: true },
   ];
+
+  // Function to handle button click
+  const handleSubmitClick = () => {
+    window.location.href = "https://yourwebsite.com/success"; // ✅ Redirects to target page
+  };
 
   return (
     <section className="w-full bg-dark text-light py-24 px-14">
@@ -134,7 +141,9 @@ export const ContactFooterSection = (): JSX.Element => {
                           <Checkbox
                             id={service.id}
                             defaultChecked={service.checked}
-                            className={`w-4 h-4 rounded-lg border-[#fefaee3d] ${service.checked ? "bg-color-3" : "bg-light"}`}
+                            className={`w-4 h-4 rounded-lg border-[#fefaee3d] ${
+                              service.checked ? "bg-color-3" : "bg-light"
+                            }`}
                           />
                           <label
                             htmlFor={service.id}
@@ -162,7 +171,10 @@ export const ContactFooterSection = (): JSX.Element => {
 
               {/* Submit button and terms */}
               <div className="flex flex-col md:flex-row items-start gap-4">
-                <Button className="px-8 py-2.5 rounded-3xl border border-[#fefaee] bg-transparent hover:bg-[#fefaee20] transition-colors">
+                <Button
+                  className="px-8 py-2.5 rounded-3xl border border-[#fefaee] bg-transparent hover:bg-[#fefaee20] transition-colors"
+                  onClick={handleSubmitClick} // ✅ Added click handler
+                >
                   <span className="font-button-text font-[number:var(--button-text-font-weight)] text-[length:var(--button-text-font-size)] tracking-[var(--button-text-letter-spacing)] leading-[var(--button-text-line-height)]">
                     SUBMIT
                   </span>

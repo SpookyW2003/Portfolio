@@ -41,7 +41,7 @@ export const HeroBannerSection = (): JSX.Element => {
       {/* Buttons */}
       <div className="flex flex-wrap items-center gap-3 sm:gap-4 md:gap-[17px]">
         {/* MY WORKS Button */}
-        <a href="#my-works">
+        <a href="#my-works" className="no-underline">
           <Button
             variant="outline"
             className="rounded-[40px] border-[#F9784C] text-[#F9784C] hover:bg-[#F9784C] hover:text-white transition-colors px-6 py-3 h-auto"
@@ -51,10 +51,10 @@ export const HeroBannerSection = (): JSX.Element => {
         </a>
 
         {/* LET'S TALK Button */}
-        <a href="#contact">
+        <a href="#contact" className="no-underline">
           <Button
             variant="default"
-            className="rounded-[40px] bg-white text-black px-6 py-3 h-auto"
+            className="rounded-[40px] bg-white text-black hover:bg-gray-200 transition-colors px-6 py-3 h-auto"
           >
             <span className="text-sm sm:text-base">LET&apos;S TALK</span>
           </Button>

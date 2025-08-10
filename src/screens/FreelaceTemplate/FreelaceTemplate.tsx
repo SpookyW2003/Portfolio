@@ -19,7 +19,7 @@ export const FreelaceTemplate = (): JSX.Element => {
     { label: "PORTFOLIO", href: "#portfolio" },
     { label: "SKILLS", href: "#skills" },
     { label: "SERVICES", href: "#services" },
-    { label: "TESTIMONIALS", href: "#testimonials" },
+    { label: "CONTACT", href: "#contact" },
   ];
 
   return (
